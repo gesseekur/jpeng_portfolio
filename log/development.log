@@ -3350,3 +3350,710 @@ Started GET "/assets/portfolio/06.jpg" for ::1 at 2016-02-10 18:38:20 -0800
 
 
 Started GET "/assets/header-bg.jpg" for ::1 at 2016-02-10 18:38:21 -0800
+
+
+Started GET "/" for ::1 at 2016-02-10 21:20:09 -0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (67.1ms)
+Completed 200 OK in 3386ms (Views: 3311.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5a64ab380736040ef45c6406edae179b622359d72397a749042d3742850d1e0b.css?body=1" for ::1 at 2016-02-10 21:20:15 -0800
+
+
+Started GET "/assets/preloader.gif" for ::1 at 2016-02-10 21:20:16 -0800
+
+
+Started GET "/assets/portfolio/01.jpg" for ::1 at 2016-02-10 21:20:16 -0800
+
+
+Started GET "/assets/portfolio/02.jpg" for ::1 at 2016-02-10 21:20:16 -0800
+
+
+Started GET "/assets/portfolio/03.jpg" for ::1 at 2016-02-10 21:20:16 -0800
+
+
+Started GET "/assets/portfolio/06.jpg" for ::1 at 2016-02-10 21:20:16 -0800
+
+
+Started GET "/assets/portfolio/05.jpg" for ::1 at 2016-02-10 21:20:16 -0800
+
+
+Started GET "/assets/portfolio/04.jpg" for ::1 at 2016-02-10 21:20:16 -0800
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-02-10 21:20:17 -0800
+
+
+Started GET "/images/favicon.ico" for ::1 at 2016-02-10 21:20:17 -0800
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jessicapeng/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jessicapeng/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jessicapeng/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (76.9ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (300.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (199.8ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (408.7ms)
+
+
+Started GET "/" for ::1 at 2016-02-10 21:23:58 -0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 87ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.min.self-fa204f07a0464b4208c9bf9bcc35f3597aae901d0ce5e359b26f3774e1154071.css?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/owl.carousel.self-ad11a17b30aae2a0fb6255ecd89fa35cd195bc22bbffe30f41f158288af46a43.css?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/bootstrap.self-75275be984ae9ce4dea42c9e8f6fc7e7f0930c817805bad82540713c83c5f058.css?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/bootstrap.min.self-ee3b4c1a50ba2f8b8d71962e03eef4f020b58bcb1fd439362b00f286c4829c5b.css?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/owl.theme.self-f1b6a29abca81c5d8f61931b640e966eb3965e8af4269d339b16ea91930f7c55.css?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/style.self-5a64ab380736040ef45c6406edae179b622359d72397a749042d3742850d1e0b.css?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/SmoothScroll.self-364a38534d2deaf2fa9207d9f209e0db3a2402f85bbcb1e45445b63d924856bf.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/bootstrap.self-ebf30e93a3894d7586e3afe9f97e7671e163d89be261268bee603f8305da6a10.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/contact_me.self-402c8fb4d676091cc27cc18654cc3750efc6e6f8bda3fe809ba86b519c4273e9.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/jqBootstrapValidation.self-d99c38ec9f08790746cdf2063aa844e5437ab46f0b110d101648e23a74bbd275.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/jquery.1.11.1.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/jquery.isotope.self-9faccc188fab2b04afc350768225d3aa567421fc23b9f01082bf98eb1352ff99.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/main.self-70fe27fc7cfa1e79914b7c34f99258c000437cdc71f110e8fc7bfc696ffdcf8d.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/modernizr.custom.self-0374fe2ff16d62f708c2b2a7a5ceb95a3d7ff3d508d51155a14cdf34348b2d03.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/owl.carousel.self-daed1ef3679c23175c94dfc19995b272d31f13258041b4390f004b3e2c2c48c3.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/typed.self-304b8e07e078d2ebb87da705ba635dd799155eeaebfd845051891b4b68f8e5ee.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/typed.min.self-29304aeef98c7f0321574bbdb169359fc685229f3dd53191c398e8806cc24a72.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/wow.min.self-528629d079c4d7618eceff35184fd78ff20e99f1a2af8c1018b987f48ab7978a.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/preloader.gif" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/portfolio/03.jpg" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/portfolio/01.jpg" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/portfolio/04.jpg" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/portfolio/06.jpg" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/portfolio/02.jpg" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/portfolio/05.jpg" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-02-10 21:23:59 -0800
+
+
+Started GET "/" for ::1 at 2016-02-10 21:28:33 -0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (408.7ms)
+Completed 500 Internal Server Error in 416ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `contacts_path' for #<#<Class:0x007fc780886450>:0x007fc780eacf78>):
+    231:     </div>
+    232: 	<h3>Let's talk tech.</h3>
+    233:   <!-- <p>Serious Inquiries Only.</p> -->
+    234:         <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+    235:     <%= f.input :name, :required => true %>
+    236:     <%= f.input :email, :required => true %>
+    237:     <%= f.input :message, :as => :text, :required => true %>
+  app/views/users/index.html.erb:234:in `_app_views_users_index_html_erb___3915769006765350853_70247419067960'
+
+
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.7ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (125.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-10 21:28:44 -0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    231:     </div>
+    232: 	<h3>Let's talk tech.</h3>
+    233:   <!-- <p>Serious Inquiries Only.</p> -->
+    234:         <%= simple_form_for @user, :html => {:class => 'form-horizontal' } do |f| %>
+    235:     <%= f.input :name, :required => true %>
+    236:     <%= f.input :email, :required => true %>
+    237:     <%= f.input :message, :as => :text, :required => true %>
+  app/views/users/index.html.erb:234:in `_app_views_users_index_html_erb___3915769006765350853_70247387479460'
+
+
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.7ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (7.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (63.0ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (133.7ms)
+
+
+Started GET "/" for ::1 at 2016-02-10 21:28:51 -0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    231:     </div>
+    232: 	<h3>Let's talk tech.</h3>
+    233:   <!-- <p>Serious Inquiries Only.</p> -->
+    234:         <%= simple_form_for @users, :html => {:class => 'form-horizontal' } do |f| %>
+    235:     <%= f.input :name, :required => true %>
+    236:     <%= f.input :email, :required => true %>
+    237:     <%= f.input :message, :as => :text, :required => true %>
+  app/views/users/index.html.erb:234:in `_app_views_users_index_html_erb___3915769006765350853_70247433873320'
+
+
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.2ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (121.9ms)
+
+
+Started GET "/" for ::1 at 2016-02-11 13:26:46 -0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 4990ms (Views: 4922.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/preloader.gif" for ::1 at 2016-02-11 13:26:56 -0800
+
+
+Started GET "/assets/portfolio/04.jpg" for ::1 at 2016-02-11 13:26:56 -0800
+
+
+Started GET "/assets/portfolio/05.jpg" for ::1 at 2016-02-11 13:26:56 -0800
+
+
+Started GET "/assets/portfolio/01.jpg" for ::1 at 2016-02-11 13:26:56 -0800
+
+
+Started GET "/assets/portfolio/03.jpg" for ::1 at 2016-02-11 13:26:56 -0800
+
+
+Started GET "/assets/portfolio/02.jpg" for ::1 at 2016-02-11 13:26:56 -0800
+
+
+Started GET "/assets/portfolio/06.jpg" for ::1 at 2016-02-11 13:26:56 -0800
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-02-11 13:26:56 -0800
+
+
+Started GET "/images/favicon.ico" for ::1 at 2016-02-11 13:26:57 -0800
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jessicapeng/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jessicapeng/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jessicapeng/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (75.8ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (300.2ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (221.9ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jessicapeng/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (442.4ms)
+
+
+Started GET "/" for ::1 at 2016-02-11 13:29:02 -0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 81ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.min.self-fa204f07a0464b4208c9bf9bcc35f3597aae901d0ce5e359b26f3774e1154071.css?body=1" for ::1 at 2016-02-11 13:29:02 -0800
+
+
+Started GET "/assets/bootstrap.self-75275be984ae9ce4dea42c9e8f6fc7e7f0930c817805bad82540713c83c5f058.css?body=1" for ::1 at 2016-02-11 13:29:02 -0800
+
+
+Started GET "/assets/owl.carousel.self-ad11a17b30aae2a0fb6255ecd89fa35cd195bc22bbffe30f41f158288af46a43.css?body=1" for ::1 at 2016-02-11 13:29:02 -0800
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-11 13:29:02 -0800
+
+
+Started GET "/assets/bootstrap.min.self-ee3b4c1a50ba2f8b8d71962e03eef4f020b58bcb1fd439362b00f286c4829c5b.css?body=1" for ::1 at 2016-02-11 13:29:02 -0800
+
+
+Started GET "/assets/owl.theme.self-f1b6a29abca81c5d8f61931b640e966eb3965e8af4269d339b16ea91930f7c55.css?body=1" for ::1 at 2016-02-11 13:29:02 -0800
+
+
+Started GET "/assets/style.self-5a64ab380736040ef45c6406edae179b622359d72397a749042d3742850d1e0b.css?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/bootstrap.self-ebf30e93a3894d7586e3afe9f97e7671e163d89be261268bee603f8305da6a10.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/contact_me.self-402c8fb4d676091cc27cc18654cc3750efc6e6f8bda3fe809ba86b519c4273e9.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/jqBootstrapValidation.self-d99c38ec9f08790746cdf2063aa844e5437ab46f0b110d101648e23a74bbd275.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/jquery.1.11.1.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/jquery.isotope.self-9faccc188fab2b04afc350768225d3aa567421fc23b9f01082bf98eb1352ff99.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/main.self-70fe27fc7cfa1e79914b7c34f99258c000437cdc71f110e8fc7bfc696ffdcf8d.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/modernizr.custom.self-0374fe2ff16d62f708c2b2a7a5ceb95a3d7ff3d508d51155a14cdf34348b2d03.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/owl.carousel.self-daed1ef3679c23175c94dfc19995b272d31f13258041b4390f004b3e2c2c48c3.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/typed.self-304b8e07e078d2ebb87da705ba635dd799155eeaebfd845051891b4b68f8e5ee.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/typed.min.self-29304aeef98c7f0321574bbdb169359fc685229f3dd53191c398e8806cc24a72.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/wow.min.self-528629d079c4d7618eceff35184fd78ff20e99f1a2af8c1018b987f48ab7978a.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/SmoothScroll.self-364a38534d2deaf2fa9207d9f209e0db3a2402f85bbcb1e45445b63d924856bf.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/preloader.gif" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/portfolio/01.jpg" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/portfolio/02.jpg" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/portfolio/03.jpg" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/portfolio/04.jpg" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/portfolio/05.jpg" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/portfolio/06.jpg" for ::1 at 2016-02-11 13:29:03 -0800
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-02-11 13:29:05 -0800
+
+
+Started GET "/" for ::1 at 2016-02-11 13:38:00 -0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 255ms (Views: 253.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-75275be984ae9ce4dea42c9e8f6fc7e7f0930c817805bad82540713c83c5f058.css?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/animate.min.self-fa204f07a0464b4208c9bf9bcc35f3597aae901d0ce5e359b26f3774e1154071.css?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/bootstrap.min.self-ee3b4c1a50ba2f8b8d71962e03eef4f020b58bcb1fd439362b00f286c4829c5b.css?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/owl.theme.self-f1b6a29abca81c5d8f61931b640e966eb3965e8af4269d339b16ea91930f7c55.css?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/owl.carousel.self-ad11a17b30aae2a0fb6255ecd89fa35cd195bc22bbffe30f41f158288af46a43.css?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/style.self-5a64ab380736040ef45c6406edae179b622359d72397a749042d3742850d1e0b.css?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/SmoothScroll.self-364a38534d2deaf2fa9207d9f209e0db3a2402f85bbcb1e45445b63d924856bf.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/contact_me.self-402c8fb4d676091cc27cc18654cc3750efc6e6f8bda3fe809ba86b519c4273e9.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/bootstrap.self-ebf30e93a3894d7586e3afe9f97e7671e163d89be261268bee603f8305da6a10.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/jqBootstrapValidation.self-d99c38ec9f08790746cdf2063aa844e5437ab46f0b110d101648e23a74bbd275.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/jquery.1.11.1.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-02-11 13:38:00 -0800
+
+
+Started GET "/assets/jquery.isotope.self-9faccc188fab2b04afc350768225d3aa567421fc23b9f01082bf98eb1352ff99.js?body=1" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/main.self-70fe27fc7cfa1e79914b7c34f99258c000437cdc71f110e8fc7bfc696ffdcf8d.js?body=1" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/modernizr.custom.self-0374fe2ff16d62f708c2b2a7a5ceb95a3d7ff3d508d51155a14cdf34348b2d03.js?body=1" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/owl.carousel.self-daed1ef3679c23175c94dfc19995b272d31f13258041b4390f004b3e2c2c48c3.js?body=1" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/typed.self-304b8e07e078d2ebb87da705ba635dd799155eeaebfd845051891b4b68f8e5ee.js?body=1" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/typed.min.self-29304aeef98c7f0321574bbdb169359fc685229f3dd53191c398e8806cc24a72.js?body=1" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/wow.min.self-528629d079c4d7618eceff35184fd78ff20e99f1a2af8c1018b987f48ab7978a.js?body=1" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/preloader.gif" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/portfolio/01.jpg" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/portfolio/02.jpg" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/portfolio/04.jpg" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/portfolio/05.jpg" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/portfolio/03.jpg" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/portfolio/06.jpg" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/assets/team/05.jpg" for ::1 at 2016-02-11 13:38:01 -0800
+
+
+Started GET "/" for ::1 at 2016-02-11 13:39:07 -0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.min.self-fa204f07a0464b4208c9bf9bcc35f3597aae901d0ce5e359b26f3774e1154071.css?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/bootstrap.min.self-ee3b4c1a50ba2f8b8d71962e03eef4f020b58bcb1fd439362b00f286c4829c5b.css?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/owl.theme.self-f1b6a29abca81c5d8f61931b640e966eb3965e8af4269d339b16ea91930f7c55.css?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/owl.carousel.self-ad11a17b30aae2a0fb6255ecd89fa35cd195bc22bbffe30f41f158288af46a43.css?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/bootstrap.self-75275be984ae9ce4dea42c9e8f6fc7e7f0930c817805bad82540713c83c5f058.css?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/style.self-5a64ab380736040ef45c6406edae179b622359d72397a749042d3742850d1e0b.css?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/SmoothScroll.self-364a38534d2deaf2fa9207d9f209e0db3a2402f85bbcb1e45445b63d924856bf.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/bootstrap.self-ebf30e93a3894d7586e3afe9f97e7671e163d89be261268bee603f8305da6a10.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/contact_me.self-402c8fb4d676091cc27cc18654cc3750efc6e6f8bda3fe809ba86b519c4273e9.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/jqBootstrapValidation.self-d99c38ec9f08790746cdf2063aa844e5437ab46f0b110d101648e23a74bbd275.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/jquery.1.11.1.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/jquery.isotope.self-9faccc188fab2b04afc350768225d3aa567421fc23b9f01082bf98eb1352ff99.js?body=1" for ::1 at 2016-02-11 13:39:07 -0800
+
+
+Started GET "/assets/main.self-70fe27fc7cfa1e79914b7c34f99258c000437cdc71f110e8fc7bfc696ffdcf8d.js?body=1" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/modernizr.custom.self-0374fe2ff16d62f708c2b2a7a5ceb95a3d7ff3d508d51155a14cdf34348b2d03.js?body=1" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/owl.carousel.self-daed1ef3679c23175c94dfc19995b272d31f13258041b4390f004b3e2c2c48c3.js?body=1" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/typed.self-304b8e07e078d2ebb87da705ba635dd799155eeaebfd845051891b4b68f8e5ee.js?body=1" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/typed.min.self-29304aeef98c7f0321574bbdb169359fc685229f3dd53191c398e8806cc24a72.js?body=1" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/wow.min.self-528629d079c4d7618eceff35184fd78ff20e99f1a2af8c1018b987f48ab7978a.js?body=1" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/preloader.gif" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/portfolio/01.jpg" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/portfolio/04.jpg" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/portfolio/03.jpg" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/portfolio/06.jpg" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/portfolio/02.jpg" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/portfolio/05.jpg" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/team/05.jpg" for ::1 at 2016-02-11 13:39:08 -0800
+
+
+Started GET "/assets/header-bg.jpg" for ::1 at 2016-02-11 13:39:08 -0800
