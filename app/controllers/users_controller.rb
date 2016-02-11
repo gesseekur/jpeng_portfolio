@@ -16,7 +16,7 @@ class UsersController < ApplicationController
 
   def download_pdf
   send_file(
-    "#{Rails.root}/public/Jessica_Peng_Resume(2-10-15).pdf",
+    "#{Rails.root}/public/Jessica_Peng_Resume.pdf",
     filename: "Jessica_Peng_Resume(2-10-15).pdf",
     type: "application/pdf"
   )
