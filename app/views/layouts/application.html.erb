@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+
+<!-- fortawesome cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- font src -->
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <!-- or yellowtail -->
+
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<!-- <link rel="stylesheet" type="text/css"  href="css/bootstrap.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="/assets/fonts/font-awesome/css/font-awesome.css"> -->
+
+
+<!-- Jquery Type -->
+<script>
+	$(document).ready(function(){ 
+    $(function(){
+
+        $("#typed").typed({    	
+            // strings: ["HI THERE,", "WELCOME TO MY STUDIO", "ENJOY :-)"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 60,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    // function foo(){ console.log("Callback"); }
+
+});
+    </script>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
