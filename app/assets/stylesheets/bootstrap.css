@@ -11,7 +11,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 article,
 aside,
@@ -1126,9 +1126,18 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-left:47%;
-  margin-top:-6%;
+  margin-top:-8%;
+  margin-left:24%;
 }
+
+
+@media screen and (max-width: 480px) {
+    .aboutPhoto {
+        margin-left:12%;
+    }
+}
+
+
 .img-rounded {
   border-radius: 6px;
 }
