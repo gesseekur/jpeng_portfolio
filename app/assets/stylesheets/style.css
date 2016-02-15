@@ -16,13 +16,20 @@ body, html {
 /*for Jquery type CSS*/
 
 .headerFont{
-	font-size:53px;
+	font-size:45px;
 	letter-spacing: 1px;
-}
+	color:white ;
+	/*background:black;*/
+	/*width:70%;*/
+	/*text-align:center;*/
+} 
+
+
 
 @media screen and (max-width: 480px) {
     .headerFont {
-        font-size:28px;
+        font-size:23px;
+        width:90%;
     }
 }
         /* code for animated blinking cursor */
@@ -151,6 +158,11 @@ hr {
 	border: 0;
 	margin-bottom: 30px;
 }
+
+#home i.fa {
+	/*color:#b0bec5;*/
+}
+
 /* Navigation */
 #menu {
 	padding: 20px;
@@ -199,7 +211,7 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../assets/header-bg.jpg) no-repeat bottom center;
+	background: url(../assets/img5.jpg) no-repeat bottom center;
 	background-size: cover;
 	color: #d9e0e2;
 	position: relative;
