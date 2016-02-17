@@ -18,10 +18,8 @@ body, html {
 .headerFont{
 	font-size:45px;
 	letter-spacing: 1px;
-	color:white ;
-	/*background:black;*/
-	/*width:70%;*/
-	/*text-align:center;*/
+	color:#eceff1;
+	color:white;
 } 
 
 
